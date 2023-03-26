@@ -1,6 +1,6 @@
 # DemoSQS
 
 ### Application to use AWS-SQS
-  Technologies
+  - Technologies
     - .NET 6
     - AWS SQS
