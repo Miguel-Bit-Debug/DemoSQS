@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xf5m2zTBEQmYtr4aziTryGkQviekYOD12ul6Jb0bOpVPl4qMQoqNRuc4JYDxYkLwoiyQRjN0pqC4nQn3SdofbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Csharp\\Demos\\Demo.SQS\\SQS.Provider\\SQS.Provider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MDMago\\.nuget\\packages\\awssdk.core\\3.7.106.6\\awssdk.core.3.7.106.6.nupkg.sha512",
+    "C:\\Users\\MDMago\\.nuget\\packages\\awssdk.sqs\\3.7.100.99\\awssdk.sqs.3.7.100.99.nupkg.sha512"
+  ],
+  "logs": []
+}
