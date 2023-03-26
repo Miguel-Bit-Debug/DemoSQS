@@ -2,5 +2,5 @@
 
 ### Application to use AWS-SQS
   - Technologies
-    - .NET 6
-    - AWS SQS
+    .NET 6
+    AWS SQS
