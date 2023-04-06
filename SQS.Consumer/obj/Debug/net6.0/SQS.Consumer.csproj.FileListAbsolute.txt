@@ -16,3 +16,4 @@ C:\Dev\Csharp\Demos\Demo.SQS\SQS.Consumer\obj\Debug\net6.0\refint\SQS.Consumer.d
 C:\Dev\Csharp\Demos\Demo.SQS\SQS.Consumer\obj\Debug\net6.0\SQS.Consumer.pdb
 C:\Dev\Csharp\Demos\Demo.SQS\SQS.Consumer\obj\Debug\net6.0\SQS.Consumer.genruntimeconfig.cache
 C:\Dev\Csharp\Demos\Demo.SQS\SQS.Consumer\obj\Debug\net6.0\ref\SQS.Consumer.dll
+C:\Dev\Csharp\Demos\Demo.SQS\SQS.Consumer\bin\Debug\net6.0\AWSSDK.SimpleNotificationService.dll

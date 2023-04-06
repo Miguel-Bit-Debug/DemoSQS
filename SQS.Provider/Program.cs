@@ -1,12 +1,43 @@
 ﻿using Amazon;
-using Amazon.SQS;
-using Amazon.SQS.Model;
+using Amazon.SimpleNotificationService;
+using Amazon.SimpleNotificationService.Model;
+using Newtonsoft.Json;
 
-var client = new AmazonSQSClient(RegionEndpoint.USEast1);
-var request = new SendMessageRequest
+var snsArn = "arn:aws:sns:us-east-1:221307536465:teste";
+
+var message = new Product()
 {
-    QueueUrl = "https://sqs.us-east-1.amazonaws.com/221307536465/teste",
-    MessageBody = "teste 123"
+    Name = "aprovação",
+    Event = "approved"
 };
 
-await client.SendMessageAsync(request);
+var messageRequest = new PublishRequest()
+{
+    Message = JsonConvert.SerializeObject(message),
+    TopicArn = snsArn,
+    MessageAttributes = new Dictionary<string, MessageAttributeValue>
+    {
+        { "name", new MessageAttributeValue()
+            {
+                StringValue = message.Event,
+                DataType = "String"
+            }
+        }
+    }
+};
+
+var snsClient = new AmazonSimpleNotificationServiceClient(RegionEndpoint.USEast1);
+
+await snsClient.PublishAsync(messageRequest);
+
+public class Product
+{
+    public Product()
+    {
+        Id = Guid.NewGuid();
+    }
+
+    public Guid Id { get; set; }
+    public string Name { get; set; }
+    public string Event { get; set; }
+}

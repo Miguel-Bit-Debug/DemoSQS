@@ -16,3 +16,5 @@ C:\Dev\Csharp\Demos\Demo.SQS\SQS.Provider\obj\Debug\net6.0\refint\SQS.Provider.d
 C:\Dev\Csharp\Demos\Demo.SQS\SQS.Provider\obj\Debug\net6.0\SQS.Provider.pdb
 C:\Dev\Csharp\Demos\Demo.SQS\SQS.Provider\obj\Debug\net6.0\SQS.Provider.genruntimeconfig.cache
 C:\Dev\Csharp\Demos\Demo.SQS\SQS.Provider\obj\Debug\net6.0\ref\SQS.Provider.dll
+C:\Dev\Csharp\Demos\Demo.SQS\SQS.Provider\bin\Debug\net6.0\AWSSDK.SimpleNotificationService.dll
+C:\Dev\Csharp\Demos\Demo.SQS\SQS.Provider\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -43,6 +43,10 @@
             "AWSSDK.SQS": {
               "target": "Package",
               "version": "[3.7.100.99, )"
+            },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.7.101.42, )"
             }
           },
           "imports": [

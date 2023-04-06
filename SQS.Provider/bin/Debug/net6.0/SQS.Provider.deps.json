@@ -8,28 +8,49 @@
     ".NETCoreApp,Version=v6.0": {
       "SQS.Provider/1.0.0": {
         "dependencies": {
-          "AWSSDK.SQS": "3.7.100.99"
+          "AWSSDK.SQS": "3.7.100.99",
+          "AWSSDK.SimpleNotificationService": "3.7.101.42",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "SQS.Provider.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.106.6": {
+      "AWSSDK.Core/3.7.106.13": {
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.106.6"
+            "fileVersion": "3.7.106.13"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.7.101.42": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.13"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.42"
           }
         }
       },
       "AWSSDK.SQS/3.7.100.99": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.106.6"
+          "AWSSDK.Core": "3.7.106.13"
         },
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
             "assemblyVersion": "3.3.0.0",
             "fileVersion": "3.7.100.99"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
           }
         }
       }
@@ -41,12 +62,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.Core/3.7.106.6": {
+    "AWSSDK.Core/3.7.106.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8s5TQQNR7rAMovVbyvmfMTOTIS4aX0TH7nBB5L8TjJbNngX2LCf3q+MrDO/HffEvzT98ZawUsZQHme2PSUa9Bg==",
-      "path": "awssdk.core/3.7.106.6",
-      "hashPath": "awssdk.core.3.7.106.6.nupkg.sha512"
+      "sha512": "sha512-EswfQZzkwxWLlzOjugBMnYUz0Txn9fczHamXkIaE3HbIR5iO+G2bI1Jk2YQOqI2g2UoL39SCohv2RDX3VUmrhw==",
+      "path": "awssdk.core/3.7.106.13",
+      "hashPath": "awssdk.core.3.7.106.13.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/3.7.101.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GWA9rA7Zp1BdUR5jMTsV2ILO9n/7ig+d0wiJ54HvDBLyMK6L6j3v3IBtazNETq5qmTYxkfNt8NKG8+ucK8IClQ==",
+      "path": "awssdk.simplenotificationservice/3.7.101.42",
+      "hashPath": "awssdk.simplenotificationservice.3.7.101.42.nupkg.sha512"
     },
     "AWSSDK.SQS/3.7.100.99": {
       "type": "package",
@@ -54,6 +82,13 @@
       "sha512": "sha512-uCKIjuMqnSLvGcyvXvRkQP+iJRXWdD5TKK5RFzpzUjaHwfI27YFpNPUHyQLC0zoQPhIbARaofHeAnEU8K90/0A==",
       "path": "awssdk.sqs/3.7.100.99",
       "hashPath": "awssdk.sqs.3.7.100.99.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     }
   }
 }
